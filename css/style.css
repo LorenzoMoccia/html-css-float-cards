@@ -10,7 +10,9 @@
 /*----------------
     COMMON
 -----------------*/
-
+body{
+    max-width: 1700px;
+}
 .clearfix::after {
     content: "";
     display: block;
@@ -21,6 +23,25 @@
     TYPOGRAPHY
 -----------------*/
 
+body{
+    font-family: 'Fredoka', sans-serif;
+    text-align: center;
+}
+
+h1{
+    color: #E53170;
+}
+
+p{
+    font-style: normal;
+}
+
+
 /*----------------
     MAIN
 -----------------*/
+
+.main-container{
+    width: 60%;
+    margin: auto;
+}

@@ -22,6 +22,8 @@ body{
 img{
     width: 100px;
     height: 100px;
+    float: left;
+    margin-right: 10px;
 }
 /*----------------
     TYPOGRAPHY
@@ -32,13 +34,23 @@ body{
     text-align: center;
 }
 
+.col-member{
+    color: white;
+}
 h1{
     color: #E53170;
     font-size: 40px;
 }
 
-p{
-    font-style: normal;
+h3{
+    color: white;
+    margin-top: 10px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: aqua;
 }
 
 
@@ -57,10 +69,10 @@ h1{
 }
 
 .col-member{
-    width:32%;
+    width:30%;
     background-color: black;
     float: left;
-    margin-right: 10px;
+    margin-right: 30px;
     margin-top: 50px;
     text-align: left;
 }
